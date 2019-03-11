@@ -17,5 +17,5 @@ const randomNumber = Math.random(0, 20);
 
 const randomInteger = Math.floor(randomNumber);
 
-const randomUserID = randomInteger + baseOffset;
+const randomUserID = randomInteger + baseOffset + 1;
 
